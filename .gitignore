@@ -1,0 +1,52 @@
+# C/C++ 编译产物
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.d
+*.dwo
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# 构建系统与大型构建目录
+/build/
+/out/
+/output/
+/dl/
+/buildroot-output/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# 调试、运行和临时文件
+core
+core.*
+*.core
+vgcore.*
+gmon.out
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# 编辑器与工具缓存
+.vscode/
+.idea/
+.clangd/
+.cache/
+
+# 镜像和大型生成物
+*.img
+*.iso
+*.itb
+*.dtb
+*.dtbo
+*.vmlinux
+*.zImage
+*.uImage
