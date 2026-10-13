@@ -5,18 +5,18 @@
 ## 会话恢复状态
 
 - 当前阶段：1. 现代 C++ 基础和工程实践
-- 当前课程：`01-cpp-fundamentals/01-object-lifecycle/`
+- 当前课程：`01-cpp-fundamentals/02-reference-const/`
 - 当前课程状态：已通过验收
-- 上次学习日期：2026-10-12
-- 当前未完成任务：等待学员明确决定是否进入下一课。
-- 已通过验收项目：`01-cpp-fundamentals/01-object-lifecycle/`
-- 知识薄弱点：成员初始化列表与常量成员函数仍需复习。
-- 下次学习任务：等待学员明确授权后，再进入下一课；不自动推进。
-- 待确认事项：课程目录中的 `object_lifecycle` 是未跟踪的构建产物，后续决定其清理或忽略规则；不影响本课验收结论。
+- 上次学习日期：2026-10-13
+- 当前未完成任务：无；等待学员明确决定是否进入下一课。
+- 已通过验收项目：`01-cpp-fundamentals/01-object-lifecycle/`、`01-cpp-fundamentals/02-reference-const/`
+- 知识薄弱点：成员初始化列表、常量成员函数、`const` 引用与 C 指针的边界仍需复习。
+- 下次学习任务：优先处理到期复习项；无到期项时，等待学员明确授权后进入下一课。
+- 待确认事项：课程目录中的 `object_lifecycle` 和 `reference_const` 是未跟踪的构建产物，后续决定其清理或忽略规则；不影响本课验收结论。
 
 | 阶段 | 对应目录 | 状态 | 当前说明 |
 | --- | --- | --- | --- |
-| 1. 现代 C++ 基础和工程实践 | `01-cpp-fundamentals/` | 进行中 | `01-object-lifecycle/` 已通过；等待明确授权后再进入下一课。 |
+| 1. 现代 C++ 基础和工程实践 | `01-cpp-fundamentals/` | 进行中 | `01-object-lifecycle/`、`02-reference-const/` 已通过；下一课为 `03-constructor-destructor/`，等待明确授权。 |
 | 2. Linux 系统编程 | `02-linux-system-programming/` | 未开始 | 尚未开始。 |
 | 3. Linux 系统调试 | `03-linux-debugging/` | 未开始 | 尚未开始。 |
 | 4. Linux 内核和设备驱动 | `04-linux-kernel/` | 未开始 | 尚未开始。 |

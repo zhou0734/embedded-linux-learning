@@ -4,8 +4,7 @@
 
 ## 初始化状态
 
-- 尚无正式学习记录。
-- 首次收到“开始今日学习”后，根据 `PROGRESS.md`、当前课程 README 和复习队列创建当天记录。
+- 已于 2026-10-13 创建首条正式学习记录。
 
 ## 记录模板
 
@@ -23,3 +22,16 @@
 - 今日总结：
 - 下次学习起点：
 ```
+
+## 2026-10-13
+
+- 当前课程：`01-cpp-fundamentals/02-reference-const/`
+- 今日知识点：按值传递、`T&` 和 `const T&` 的对象关系与接口约束。
+- 今日实践：创建 `title` 的值副本、可写引用和只读引用，输出值与地址，并验证 `const` 引用不可修改。
+- 实际完成情况：已完成并通过本课验收。
+- 实际执行的命令与结果：`g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror -g main.cpp -o reference_const` 严格编译通过；`./reference_const` 运行显示 `copy` 地址不同，`alias`、`readonly` 与 `title` 地址相同；临时启用 `readonly += "-test";` 后编译被拒绝。
+- 遇到的问题：初始将引用与地址混淆，且未说明 `const` 只读接口的实际价值。
+- 解决方式：通过地址和值的实际输出澄清别名关系，并以打印配置接口的副作用风险说明 `const` 约束。
+- 理解检查/验收结论：已能说明只读接口应使用 `const std::string&`，非 `const` 引用修改会影响调用者对象；已能说明 `const char*` 仍可能为 `nullptr`。
+- 今日总结：`const T&` 用于只读且避免复制；`T&` 仅在接口需要改变调用者对象时使用。
+- 下次学习起点：先处理到期复习项；无到期项时，待学员授权后进入 `01-cpp-fundamentals/03-constructor-destructor/`。
