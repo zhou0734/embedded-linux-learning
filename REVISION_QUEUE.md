@@ -8,6 +8,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 引用、`const` 引用与按值传递 | `01-cpp-fundamentals/02-reference-const/` | 2026-10-20 | 不运行代码，先预测值副本、`T&`、`const T&` 的地址与修改结果；再解释只读接口的必要性。 | 待复习 | 未执行 | 未执行 |
 | 引用、`const` 引用与按值传递 | `01-cpp-fundamentals/02-reference-const/` | 2026-11-12 | 对比 C 的 `const char*` 与 C++ 的 `const std::string&`，说明空指针和生命周期边界。 | 待复习 | 未执行 | 未执行 |
+| 构造函数、析构函数与 RAII | `01-cpp-fundamentals/03-constructor-destructor/` | 2026-10-21 | 不运行代码，先预测提前 `return` 与正常返回的构造、析构和结果日志顺序；解释为什么不需每条路径手写关闭。 | 待复习 | 未执行 | 未执行 |
+| 构造函数、析构函数与 RAII | `01-cpp-fundamentals/03-constructor-destructor/` | 2026-11-13 | 对比 C 的手动 `close`、C++ RAII 与 Java `try-with-resources`，说明三者的确定释放机制。 | 待复习 | 未执行 | 未执行 |
 
 ## 条目模板
 
